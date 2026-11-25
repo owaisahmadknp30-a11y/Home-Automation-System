@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 900" width="1500" height="900" role="img" aria-labelledby="t d" xmlns:c2pa="http://c2pa.org/manifest">
+<title id="t">ESP32 Smart Home Automation - Wiring Diagram</title>
+<desc id="d">ESP32 DevKit V1 connected to four push buttons and a 4-channel relay module that switches four AC loads.</desc>
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity=".18"/></filter>
+</defs>
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.m{font-family:Consolas,Menlo,'Courier New',monospace;font-weight:600}
+.w{fill:none;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<rect width="1500" height="900" rx="18" fill="#f5f7fb"/>
+<text x="60" y="58" font-size="30" font-weight="700" fill="#111827">ESP32 Smart Home Automation</text>
+<text x="60" y="86" font-size="15" fill="#4b5563">Wiring diagram  |  ESP32 DevKit V1 + 4-channel relay + 4 push buttons  |  ESP RainMaker</text>
+
+<rect x="1150" y="60" width="300" height="480" rx="16" fill="#fdecea" stroke="#f1a19a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1168" y="82" font-size="11" font-weight="700" letter-spacing="1" fill="#c62828">AC MAINS SIDE - HIGH VOLTAGE</text>
+<rect x="1170" y="96" width="260" height="48" rx="10" fill="#fff" stroke="#8d5524" stroke-width="2"/>
+<text x="1300" y="125" font-size="15" font-weight="700" text-anchor="middle" fill="#374151">AC MAINS 230 V</text>
+<text x="1203" y="136" font-size="13" font-weight="700" fill="#8d5524">L</text>
+<text x="1397" y="136" font-size="13" font-weight="700" text-anchor="end" fill="#1e88e5">N</text>
+<rect x="550" y="735" width="60" height="30" rx="6" fill="#b0bec5"/><text x="580" y="756" font-size="11" font-weight="700" text-anchor="middle" fill="#37474f">USB</text>
+<rect x="460" y="180" width="240" height="560" rx="18" fill="#1f2937" filter="url(#sh)"/>
+<rect x="545" y="200" width="70" height="62" rx="6" fill="#cfd8dc"/><text x="580" y="236" font-size="13" font-weight="700" text-anchor="middle" fill="#37474f">ESP32</text>
+<text x="580" y="528" font-size="17" font-weight="700" text-anchor="middle" fill="#fff">ESP32</text>
+<text x="580" y="549" font-size="13" text-anchor="middle" fill="#9fb0c8">DevKit V1</text>
+<rect x="860" y="180" width="260" height="510" rx="16" fill="#2563b8" filter="url(#sh)"/>
+<text x="990" y="208" font-size="13" font-weight="700" text-anchor="middle" fill="#fff" letter-spacing=".5">4-CHANNEL RELAY MODULE</text>
+<rect x="100" y="228" width="140" height="44" rx="10" fill="#fff" stroke="#8e24aa" stroke-width="2" filter="url(#sh)"/>
+<text x="170" y="255" font-size="15" font-weight="600" text-anchor="middle" fill="#4a148c">Button 1</text>
+<rect x="100" y="303" width="140" height="44" rx="10" fill="#fff" stroke="#8e24aa" stroke-width="2" filter="url(#sh)"/>
+<text x="170" y="330" font-size="15" font-weight="600" text-anchor="middle" fill="#4a148c">Button 2</text>
+<rect x="100" y="378" width="140" height="44" rx="10" fill="#fff" stroke="#8e24aa" stroke-width="2" filter="url(#sh)"/>
+<text x="170" y="405" font-size="15" font-weight="600" text-anchor="middle" fill="#4a148c">Button 3</text>
+<rect x="100" y="453" width="140" height="44" rx="10" fill="#fff" stroke="#8e24aa" stroke-width="2" filter="url(#sh)"/>
+<text x="170" y="480" font-size="15" font-weight="600" text-anchor="middle" fill="#4a148c">Button 4</text>
+<path class="w" stroke="#8e24aa" d="M240 250 H460"/>
+<path class="w" stroke="#8e24aa" d="M240 325 H460"/>
+<path class="w" stroke="#8e24aa" d="M240 400 H460"/>
+<path class="w" stroke="#8e24aa" d="M240 475 H460"/>
+<path class="w" stroke="#263238" d="M100 250 H60"/>
+<path class="w" stroke="#263238" d="M100 325 H60"/>
+<path class="w" stroke="#263238" d="M100 400 H60"/>
+<path class="w" stroke="#263238" d="M100 475 H60"/>
+<path class="w" stroke="#263238" d="M60 250 V580 H460"/>
+<path class="w" stroke="#fb8c00" d="M700 250 H860"/>
+<path class="w" stroke="#fb8c00" d="M700 325 H860"/>
+<path class="w" stroke="#fb8c00" d="M700 400 H860"/>
+<path class="w" stroke="#fb8c00" d="M700 475 H860"/>
+<path class="w" stroke="#263238" d="M700 580 H860"/>
+<path class="w" stroke="#e53935" d="M460 640 H420 V820 H800 V640 H860"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1190 144 V461"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 236 H1190"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 311 H1190"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 386 H1190"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 461 H1190"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 264 H1182 a8 8 0 0 1 16 0 H1250"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 339 H1182 a8 8 0 0 1 16 0 H1250"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 414 H1182 a8 8 0 0 1 16 0 H1250"/>
+<path class="w" stroke="#8d5524" stroke-width="4" d="M1120 489 H1250"/>
+<path class="w" stroke="#1e88e5" stroke-width="4" d="M1410 144 V489"/>
+<path class="w" stroke="#1e88e5" stroke-width="4" d="M1350 264 H1410"/>
+<path class="w" stroke="#1e88e5" stroke-width="4" d="M1350 339 H1410"/>
+<path class="w" stroke="#1e88e5" stroke-width="4" d="M1350 414 H1410"/>
+<path class="w" stroke="#1e88e5" stroke-width="4" d="M1350 489 H1410"/>
+<rect x="1250" y="246" width="100" height="36" rx="10" fill="#fff" stroke="#9aa3b2" stroke-width="1.5" filter="url(#sh)"/>
+<circle cx="1273" cy="264" r="9" fill="#ffe082" stroke="#f9a825" stroke-width="2"/>
+<text x="1293" y="269" font-size="14" font-weight="600" fill="#374151">Load 1</text>
+<rect x="1250" y="321" width="100" height="36" rx="10" fill="#fff" stroke="#9aa3b2" stroke-width="1.5" filter="url(#sh)"/>
+<circle cx="1273" cy="339" r="9" fill="#ffe082" stroke="#f9a825" stroke-width="2"/>
+<text x="1293" y="344" font-size="14" font-weight="600" fill="#374151">Load 2</text>
+<rect x="1250" y="396" width="100" height="36" rx="10" fill="#fff" stroke="#9aa3b2" stroke-width="1.5" filter="url(#sh)"/>
+<circle cx="1273" cy="414" r="9" fill="#ffe082" stroke="#f9a825" stroke-width="2"/>
+<text x="1293" y="419" font-size="14" font-weight="600" fill="#374151">Load 3</text>
+<rect x="1250" y="471" width="100" height="36" rx="10" fill="#fff" stroke="#9aa3b2" stroke-width="1.5" filter="url(#sh)"/>
+<circle cx="1273" cy="489" r="9" fill="#ffe082" stroke="#f9a825" stroke-width="2"/>
+<text x="1293" y="494" font-size="14" font-weight="600" fill="#374151">Load 4</text>
+<rect x="950" y="230" width="76" height="40" rx="8" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<text x="988" y="254" font-size="12" font-weight="700" text-anchor="middle" fill="#0d47a1">RELAY 1</text>
+<text class="m" x="876" y="255" font-size="13" fill="#fff">IN1</text>
+<text x="1106" y="240" font-size="11" font-weight="700" text-anchor="end" fill="#fff">COM</text>
+<text x="1106" y="268" font-size="11" font-weight="700" text-anchor="end" fill="#fff">NO</text>
+<rect x="950" y="305" width="76" height="40" rx="8" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<text x="988" y="329" font-size="12" font-weight="700" text-anchor="middle" fill="#0d47a1">RELAY 2</text>
+<text class="m" x="876" y="330" font-size="13" fill="#fff">IN2</text>
+<text x="1106" y="315" font-size="11" font-weight="700" text-anchor="end" fill="#fff">COM</text>
+<text x="1106" y="343" font-size="11" font-weight="700" text-anchor="end" fill="#fff">NO</text>
+<rect x="950" y="380" width="76" height="40" rx="8" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<text x="988" y="404" font-size="12" font-weight="700" text-anchor="middle" fill="#0d47a1">RELAY 3</text>
+<text class="m" x="876" y="405" font-size="13" fill="#fff">IN3</text>
+<text x="1106" y="390" font-size="11" font-weight="700" text-anchor="end" fill="#fff">COM</text>
+<text x="1106" y="418" font-size="11" font-weight="700" text-anchor="end" fill="#fff">NO</text>
+<rect x="950" y="455" width="76" height="40" rx="8" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<text x="988" y="479" font-size="12" font-weight="700" text-anchor="middle" fill="#0d47a1">RELAY 4</text>
+<text class="m" x="876" y="480" font-size="13" fill="#fff">IN4</text>
+<text x="1106" y="465" font-size="11" font-weight="700" text-anchor="end" fill="#fff">COM</text>
+<text x="1106" y="493" font-size="11" font-weight="700" text-anchor="end" fill="#fff">NO</text>
+<text class="m" x="876" y="585" font-size="13" fill="#fff">GND</text>
+<text class="m" x="876" y="645" font-size="13" fill="#fff">VCC</text>
+<text class="m" x="476" y="255" font-size="13" fill="#e8eef7">GPIO 13</text>
+<text class="m" x="476" y="330" font-size="13" fill="#e8eef7">GPIO 12</text>
+<text class="m" x="476" y="405" font-size="13" fill="#e8eef7">GPIO 14</text>
+<text class="m" x="476" y="480" font-size="13" fill="#e8eef7">GPIO 27</text>
+<text class="m" x="476" y="585" font-size="13" fill="#e8eef7">GND</text>
+<text class="m" x="476" y="645" font-size="13" fill="#e8eef7">VIN (5V)</text>
+<text class="m" x="684" y="255" font-size="13" text-anchor="end" fill="#e8eef7">GPIO 23</text>
+<text class="m" x="684" y="330" font-size="13" text-anchor="end" fill="#e8eef7">GPIO 19</text>
+<text class="m" x="684" y="405" font-size="13" text-anchor="end" fill="#e8eef7">GPIO 18</text>
+<text class="m" x="684" y="480" font-size="13" text-anchor="end" fill="#e8eef7">GPIO 5</text>
+<text class="m" x="684" y="585" font-size="13" text-anchor="end" fill="#e8eef7">GND</text>
+<circle cx="460" cy="250" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="460" cy="325" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="460" cy="400" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="460" cy="475" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="460" cy="580" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="460" cy="640" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="700" cy="250" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="700" cy="325" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="700" cy="400" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="700" cy="475" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="700" cy="580" r="6" fill="#fbc02d" stroke="#b28704" stroke-width="1.5"/>
+<circle cx="860" cy="250" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="860" cy="325" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="860" cy="400" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="860" cy="475" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="860" cy="580" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="860" cy="640" r="6" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="100" cy="250" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="240" cy="250" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="1120" cy="236" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1120" cy="264" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1190" cy="236" r="4" fill="#8d5524" stroke="#8d5524" stroke-width="1.5"/>
+<circle cx="1250" cy="264" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1350" cy="264" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1410" cy="264" r="4" fill="#1e88e5" stroke="#1e88e5" stroke-width="1.5"/>
+<circle cx="60" cy="250" r="4" fill="#263238" stroke="#263238" stroke-width="1.5"/>
+<circle cx="100" cy="325" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="240" cy="325" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="1120" cy="311" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1120" cy="339" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1190" cy="311" r="4" fill="#8d5524" stroke="#8d5524" stroke-width="1.5"/>
+<circle cx="1250" cy="339" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1350" cy="339" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1410" cy="339" r="4" fill="#1e88e5" stroke="#1e88e5" stroke-width="1.5"/>
+<circle cx="60" cy="325" r="4" fill="#263238" stroke="#263238" stroke-width="1.5"/>
+<circle cx="100" cy="400" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="240" cy="400" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="1120" cy="386" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1120" cy="414" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1190" cy="386" r="4" fill="#8d5524" stroke="#8d5524" stroke-width="1.5"/>
+<circle cx="1250" cy="414" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1350" cy="414" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1410" cy="414" r="4" fill="#1e88e5" stroke="#1e88e5" stroke-width="1.5"/>
+<circle cx="60" cy="400" r="4" fill="#263238" stroke="#263238" stroke-width="1.5"/>
+<circle cx="100" cy="475" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="240" cy="475" r="5" fill="#fff" stroke="#8e24aa" stroke-width="1.5"/>
+<circle cx="1120" cy="461" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1120" cy="489" r="5" fill="#fff" stroke="#90caf9" stroke-width="1.5"/>
+<circle cx="1190" cy="461" r="4" fill="#8d5524" stroke="#8d5524" stroke-width="1.5"/>
+<circle cx="1250" cy="489" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1350" cy="489" r="5" fill="#fff" stroke="#9aa3b2" stroke-width="1.5"/>
+<circle cx="1410" cy="489" r="4" fill="#1e88e5" stroke="#1e88e5" stroke-width="1.5"/>
+<circle cx="60" cy="475" r="4" fill="#263238" stroke="#263238" stroke-width="1.5"/>
+<circle cx="1190" cy="144" r="5" fill="#fff" stroke="#8d5524" stroke-width="1.5"/>
+<circle cx="1410" cy="144" r="5" fill="#fff" stroke="#1e88e5" stroke-width="1.5"/>
+<text x="130" y="570" font-size="12" fill="#37474f">Common GND for all buttons</text>
+<text x="610" y="812" font-size="12" font-weight="600" text-anchor="middle" fill="#e53935">5 V from VIN to relay VCC</text>
+<polygon points="1168,532 1178,514 1188,532" fill="#f9a825" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="1178" y="529" font-size="11" font-weight="800" text-anchor="middle" fill="#7f1d1d">!</text>
+<text x="1196" y="529" font-size="12" font-weight="700" fill="#b71c1c">Switch off mains before wiring</text>
+<rect x="1150" y="570" width="300" height="220" rx="14" fill="#fff" stroke="#dfe5ee" stroke-width="1.5"/>
+<text x="1172" y="600" font-size="15" font-weight="700" fill="#111827">Wire colours</text>
+<path d="M1172 628 H1214" stroke="#e53935" stroke-width="3.4" stroke-linecap="round"/>
+<text x="1228" y="632" font-size="13" fill="#374151">5 V power</text>
+<path d="M1172 655 H1214" stroke="#263238" stroke-width="3.4" stroke-linecap="round"/>
+<text x="1228" y="659" font-size="13" fill="#374151">Ground (GND)</text>
+<path d="M1172 682 H1214" stroke="#8e24aa" stroke-width="3.4" stroke-linecap="round"/>
+<text x="1228" y="686" font-size="13" fill="#374151">Button signal</text>
+<path d="M1172 709 H1214" stroke="#fb8c00" stroke-width="3.4" stroke-linecap="round"/>
+<text x="1228" y="713" font-size="13" fill="#374151">Relay signal</text>
+<path d="M1172 736 H1214" stroke="#8d5524" stroke-width="4" stroke-linecap="round"/>
+<text x="1228" y="740" font-size="13" fill="#374151">AC live / switched live</text>
+<path d="M1172 763 H1214" stroke="#1e88e5" stroke-width="4" stroke-linecap="round"/>
+<text x="1228" y="767" font-size="13" fill="#374151">AC neutral</text>
+<text x="60" y="878" font-size="12" fill="#6b7280">Pin order on the drawing is simplified. Always follow the GPIO labels printed on your board.  Relay module is active-LOW.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4Y2NmYjJmNC0xY2FkLTQyZGMtODUzOC0yNTA0MDJlNmFiNmEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaE1iXMdcaA7QSGUwW+bzfO4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozNzY2MjU5MC0xZWFmLTRhODItOWI3ZC0yYmEwY2UxZTE1YjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo/F7y2zxHDQW46SnQyVQL/QAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggfdYp87g8EfzW7VJe+C4bXAcM/GPvO40XBlVsVD9NDKikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNNKlxnRx4ZeYOkSHhR3JUgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYICLTtmIf9itbeg4ntve/kBeA5wgYNLqo5mT09NkDEQ9/ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GT6EZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjhjY2ZiMmY0LTFjYWQtNDJkYy04NTM4LTI1MDQwMmU2YWI2YS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmMzYTMzNjI2LTRiN2YtNDdlOC05MTc5LWE2ODk5YWY0ZmE2Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB91inzuDwR/NbtUl74LhtcBwz8Y+87jRcGVWxUP00MqKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggX67sa6TodwL2sySFIMiTWFyCrcGYK+PLkpjcwX5UVm6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggBZoXAsR8mwlT59l+b7uv7vw9aFAx1uP7v5xr5DAq7HR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBTQZDedhLK/P2dp7X2LJukiZISN0ulILFTvH/C9/BIyYno50J8B+O4+DtNxxq5YsHgXWLS755u8Zzhdf0Cayos=</c2pa:manifest></metadata></svg>
