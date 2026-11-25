@@ -30,6 +30,11 @@ An IoT-based 4-channel home automation system built on **ESP32** that lets you c
 | **Status LED** | `GPIO 2` | Indicates state-restore mode |
 | **Reset Button** | `GPIO 0` | Hold 3s: Wi-Fi reset / Hold 10s: Factory reset |
 
+
+## Circuit & Wiring Diagram
+![ESP32 Home Automation Wiring Diagram](docs/wiring-diagram.svg)
+
+
 ## Libraries Required
 - `RMaker` & `WiFiProv` (ESP32 Arduino Core - RainMaker)
 - `Preferences` (ESP32 built-in NVS storage)
